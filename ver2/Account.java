@@ -4,16 +4,14 @@ public class Account {
 	// Instance variable, only available inside this class.
 	private double balance;
 	private String name;
-	// Constructor
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
+
 
 
 	// A "getter" method that simply returns the balance.
 	public double getBalance() {
 		return balance;
 	}
+	// Getting name
 	public String getName() {
 		return name;
 	}
